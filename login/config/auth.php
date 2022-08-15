@@ -90,7 +90,7 @@ return [
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
-            'expire' => 120,
+            'expire' => 120,//the valid of link of reset password is 2 hour
             'throttle' => 60,
         ],
     ],
